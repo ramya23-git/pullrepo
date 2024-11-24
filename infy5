@@ -1,0 +1,14 @@
+The -d option will delete the branch only if it has already been pushed and merged with the
+remote branch. Use -D instead if you want to force the branch to be deleted, even if it hasn't
+been pushed or merged yet. The branch is now deleted locally.
+Now all the things you have done is on your local system.
+GIT MERGE:
+Git merge is a command used in the Git version control system to combine changes from one
+branch.
+To merge: git merge branch_name 
+GIT CHERRY-PICK:
+Git cherry-pick is a command in Git that allows you to take a specific commit from one bran
+and apply it to another branch. It's like picking a cherry (commit) from one branch and adding
+it to another branch, allowing you to selectively copy individual commits without merging the
+entire branch.
+Command: git cherry-pick commit_i
